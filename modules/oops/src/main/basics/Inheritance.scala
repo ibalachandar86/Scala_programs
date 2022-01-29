@@ -5,18 +5,14 @@ object Inheritance extends App {
   // Single class inheritance - child class car extends vehicle super class
   class vehicle {
     val color: String = "abc"
-
     def x = println("In vehical class")
-
     def y = println("Super Method")
   }
 
   // Override method
   class car extends vehicle {
     override val color = "blue"
-
     override def x = println("In car class: ")
-
     def printSuperMethod = y
   }
 

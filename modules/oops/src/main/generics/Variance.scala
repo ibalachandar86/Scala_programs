@@ -16,7 +16,7 @@ object Variance extends App {
   val inVariantList: InVariantList[Animal] = new InVariantList[Animal]
 
   // ContraVariance
-  class ContraVarianceList[-A]
-  val contraVarianceList: ContraVarianceList[Cat] = new ContraVarianceList[Animal]
+  class Trainer[-A]
+  val trainer: Trainer[Cat] = new Trainer[Animal]
 
 }
