@@ -5,4 +5,5 @@
 5. Abstract.scala
 6. Traits.scala 
 7. LinkedListOops.scala
-8. Anonymous.scala
+8. AnonymousFunction.scala
+9. AnonymousClass.scala

@@ -1,8 +1,9 @@
-package src.main.basics
+package src.main.collections
 
 import java.util.NoSuchElementException
 
-abstract class MyList {
+// Uncomment below to execute
+/*abstract class MyList {
   def head: Int
   def tail: MyList
   def isEmpty: Boolean
@@ -38,7 +39,7 @@ object LinkedListOops extends App {
   println(list.isEmpty)
   println(list.toString)
 
-}
+}*/
 
 // Assigning the values to Linked List - 1
 /*val list = new Cons(1, Empty)

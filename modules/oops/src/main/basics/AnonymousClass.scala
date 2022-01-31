@@ -1,6 +1,6 @@
 package src.main.basics
 
-object Anonymous extends App {
+object AnonymousClass extends App {
 
   // Abstract class cannot be instantiated need a sub class to extend it.
   abstract class Animal {
