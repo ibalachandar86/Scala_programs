@@ -20,6 +20,13 @@ object Settings {
     assembly / assemblyJarName := "advanced.jar"
   )
 
+  // Set advanced modules settings
+  lazy val guiSettings: Seq[sbt.Def.Setting[_]] = commonSettings ++ Assembly.settings ++ Seq(
+    libraryDependencies ++= guiDependencies,
+    scalacOptions ++= commonScalacOptions,
+    assembly / assemblyJarName := "gui.jar"
+  )
+
   // Set Assembly settings
   object Assembly {
     lazy val settings: Seq[sbt.Def.Setting[_]] = Seq(

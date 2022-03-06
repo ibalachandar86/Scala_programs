@@ -4,3 +4,5 @@
 /project/project/
 /project/target/
 /.bsp/
+/modules/advanced/target/
+/modules/gui/target/

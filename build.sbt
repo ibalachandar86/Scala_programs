@@ -5,6 +5,11 @@ lazy val advanced = Project(
   base = file("modules/advanced")
 ).settings(advancedSettings)
 
+lazy val gui = Project(
+  id = "gui",
+  base = file("modules/gui")
+).settings(guiSettings)
+
 // Custom Tasks
 
 /*
